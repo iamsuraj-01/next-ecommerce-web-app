@@ -80,7 +80,7 @@ npm run dev
 
 ## Supabase Table Setup
 
-### Step 1: Create the Table
+### Step 1: Create the Table if not created
 
 Create a table in your Supabase SQL editor:
 
@@ -92,7 +92,7 @@ CREATE TABLE users (
 );
 ```
 
-### Step 2: Set up Row-Level Security (RLS) Policies
+### Step 2: Set up Row-Level Security (RLS) Policies, if not created
 
 **Important:** After creating the table, you need to create four policies if not created:
 
