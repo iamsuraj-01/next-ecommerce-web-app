@@ -6,6 +6,10 @@ A complete Next.js application implementing CRUD (Create, Read, Update, Delete) 
 
 https://youtu.be/ZKjMuuovLWs
 
+## Important
+
+Do not clone this repository or run the template directly from GitHub, as any changes you make could affect the original version. Instead, download the template as a ZIP file, extract it, and rename the folder to something different from the repository name such as 'my-project' or any name you prefer. Then, open it in Visual Studio Code to run and customize the template according to your preferences.
+
 ## Setup Instructions
 
 1. Getting Started
