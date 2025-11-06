@@ -2,6 +2,10 @@
 
 A complete Next.js application implementing CRUD (Create, Read, Update, Delete) operations with Supabase database.
 
+## Tutorial
+
+https://youtu.be/ZKjMuuovLWs
+
 ## Setup Instructions
 
 1. Getting Started
