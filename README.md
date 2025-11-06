@@ -20,8 +20,45 @@ npm install
 ```
 
 2. Set up environment variables:
-   - Copy `.env.local.example` to `.env.local`
-   - Fill in your Supabase project URL and anon key
+
+   In the root directory of your project, create a new file named .env.local
+
+   a. Open the existing file .env.local.example and copy all its contents.
+
+   b. Paste the copied content into your new .env.local file.
+
+   c. Your .env.local file should contain the following variables:
+
+   ```bash
+   NEXT_PUBLIC_SUPABASE_URL=
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=
+   ```
+   d. Go to your Supabase account:
+
+      If you already have a project named next-crud-web-app, open it.
+
+      If not, create a new Supabase project named next-crud-web-app.
+
+   e. In your Supabase dashboard:
+
+      Go to Settings.
+
+      Under API Keys, copy the key and paste it into:
+
+      ```bash
+      NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
+      ```
+      Under Data API, copy the project URL and paste it into:
+
+      ```bash
+      NEXT_PUBLIC_SUPABASE_URL=your_project_url_here
+      ```
+      
+      ✅ Example (.env.local)
+      ```bash
+      NEXT_PUBLIC_SUPABASE_URL=https://your-project-url.supabase.co
+      NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-public-key
+      ```
 
 3. Set up Supabase database:
    - Create a table named `users` in your Supabase project
