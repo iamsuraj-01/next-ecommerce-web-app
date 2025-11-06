@@ -1,22 +1,29 @@
-# CRUD Operation App
+## Technologies: Next JS (Full-Stack Framework) + Tailwind CSS (UI Design) + Supabase (Database)
 
 A complete Next.js application implementing CRUD (Create, Read, Update, Delete) operations with Supabase database.
 
-## Features
-
-- **Create**: Add new username to database
-- **Read**: Fetch and display all users in a data table
-- **Update**: Edit existing username
-- **Delete**: Remove user from database
-- Real-time table updates without page refresh
-- Simple and minimal interface
-- Comprehensive code comments for beginners
-
 ## Setup Instructions
 
-1. Install dependencies:
+1. Getting Started
+
+(a): Download the project code ZIP file, extract it, and move it to your preferred location.
+
+(b): Open the project in Visual Studio Code and open the terminal.
+
+(c): Run the following commands in the terminal:
+
+Note: The first command verifies the path. Before running it, right-click the project folder, select 'Copy Path,' and paste it in place of path/to/your/project. The second command installs dependencies, creating the node_modules folder. The third command runs the project, generating the .next folder. Both node_modules and .next are temporary folders created during the build process. They can be safely deleted once the project is completed and deployed or is no longer needed. However, they will be recreated if you run npm install, npm run dev, or npm run build again.
+
 ```bash
+
+# Verify the path to your project directory
+cd path/to/your/project
+
+# Install dependencies
 npm install
+
+# Run the development server
+npm run dev
 ```
 
 2. Set up environment variables:
