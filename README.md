@@ -48,9 +48,9 @@ npm run dev
    ```
    d. Go to your Supabase account:
 
-      If you already have a project named next-ecommerce-web-app, open it.
+      If you already have a project named next-js-ecommerce-web-app, open it.
 
-      If not, create a new Supabase project named next-ecommerce-web-app.
+      If not, create a new Supabase project named next-js-ecommerce-web-app (you can use any other project name as well).
 
    e. In your Supabase dashboard:
 
