@@ -1,7 +1,5 @@
 ## Technologies: Next JS (Full-Stack Framework) + Tailwind CSS (UI Design) + Supabase (Database)
 
-A complete Next.js application implementing CRUD (Create, Read, Update, Delete) operations with Supabase database.
-
 ## Tutorial
 
 https://youtu.be/ahGR7dtIgto
@@ -75,7 +73,7 @@ npm run dev
       NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-public-key
       ```
 
-## 🔄 Stripe Integration
+## 🔄 Stripe Integration (Optional)
 
 **Current Status**: Using placeholder keys for testing
 
