@@ -1,5 +1,9 @@
 ## Technologies: Next JS (Full-Stack Framework) + Tailwind CSS (UI Design) + Supabase (Database)
 
+## Important
+
+If you don’t know how to run this project, simply use any AI agent, upload the entire source code to it and ask the AI agent how to run the project. Then, just follow the instructions; the AI agent will guide you through the process.
+
 ## Tutorial
 
 https://youtu.be/ahGR7dtIgto
