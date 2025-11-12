@@ -1,8 +1,8 @@
 ## Technologies: Next JS (Full-Stack Framework) + Tailwind CSS (UI Design) + Supabase (Database)
 
-## Important
+## Deployment
 
-If you don’t know how to run this project, simply use any AI agent, upload the entire source code to it and ask the AI agent how to run the project. Then, just follow the instructions; the AI agent will guide you through the process.
+This entire project was built by an AI agent. If you don’t know how to run, deploy, or make it live, simply use any AI agent, upload the entire source code and ask the AI agent how to run or deploy the project. Then, just follow the instructions; the AI agent will guide you through the process.
 
 ## Tutorial
 
@@ -196,11 +196,6 @@ UPDATE user_profiles SET role = 'admin' WHERE id = '<user-id>';
 - Currently using placeholder Stripe keys
 - Replace with real keys to enable payments
 - Check Stripe dashboard for session creation
-
-## 🚀 Deployment Ready
-
-The application is already deployed and running at:
-**https://buyflow-62.preview.emergentagent.com**
 
 For production deployment to Vercel:
 1. Connect your GitHub repository
