@@ -86,45 +86,20 @@ npm run dev
    ```
 3. Restart the application
 4. Set up Stripe webhook for payment confirmations (optional but recommended)
-
-### Database Schema (Supabase)
-
-**Tables:**
-1. **products**
-   - id (UUID, primary key)
-   - name, description, price, category, stock
-   - image_url
-   - created_at
-
-2. **user_profiles**
-   - id (UUID, references auth.users)
-   - role (admin/customer)
-   - created_at
-
-3. **cart_items**
-   - id (UUID)
-   - user_id (references auth.users)
-   - product_id (references products)
-   - quantity
-   - created_at
-
-4. **orders**
-   - id (UUID)
-   - user_id (references auth.users)
-   - total, status
-   - stripe_session_id
-   - created_at
-
-5. **order_items**
-   - id (UUID)
-   - order_id (references orders)
-   - product_id (references products)
-   - quantity, price
-   - created_at
-
+   
 ### Database Setup
-1. Run the SQL script in `/app/supabase-schema.sql` in your Supabase SQL Editor
-2. This will create all tables, policies, and seed 10 sample products
+
+1. Open the file supabase-schema.sql in your project folder and copy all the SQL code from that file.
+
+2. Go to your Supabase Dashboard and open your project. In the left sidebar, click on “SQL Editor” (under the Database section). In the SQL Editor window, paste the copied SQL code. Click on the “Run” button at the top right.
+
+This will:
+
+(a) Create all required tables
+
+(b) Set up the necessary Row Level Security (RLS) policies
+
+Note: You can view the newly created tables by navigating to Database → Tables in your Supabase dashboard.
 
 ### Running the Application
 The application is already running at:
