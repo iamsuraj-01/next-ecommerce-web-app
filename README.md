@@ -93,13 +93,13 @@ npm run dev
 
 2. Go to your Supabase Dashboard and open your project. In the left sidebar, click on “SQL Editor” (under the Database section). In the SQL Editor window, paste the copied SQL code. Click on the “Run” button at the top right.
 
-This will:
-
-(a) Create all required tables
-
-(b) Set up the necessary Row Level Security (RLS) policies
-
-Note: You can view the newly created tables by navigating to Database → Tables in your Supabase dashboard.
+   This will:
+   
+   (a) Create all required tables
+   
+   (b) Set up the necessary Row Level Security (RLS) policies
+   
+   Note: You can view the newly created tables by navigating to Database → Tables in your Supabase dashboard.
 
 ### Running the Application
 The application is already running at:
