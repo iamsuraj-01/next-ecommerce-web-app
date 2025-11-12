@@ -2,7 +2,7 @@
 
 ## Deployment
 
-This entire project was built by an AI agent. If you don’t know how to run the project on a local server or deploy it to a live server, simply use any AI agent, upload the entire source code or clone the repository, and prompt the AI agent to help you either run the project locally or deploy it live. Then, just follow the instructions; the AI agent will guide you through the process.
+This entire project was built by an AI agent. If you don’t know how to run the project on a local server or deploy it to a live server, simply use any AI agent, upload the entire source code or clone the repository, and prompt the AI agent to help you either run the project locally or deploy it live. Then, just follow the instructions, the AI agent will guide you through the process.
 
 Demo:
 
