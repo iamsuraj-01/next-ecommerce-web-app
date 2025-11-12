@@ -6,7 +6,9 @@ This entire project was built by an AI agent. If you don’t know how to run the
 
 ## Tutorial
 
-https://youtu.be/ahGR7dtIgto
+How to Build: https://youtu.be/ahGR7dtIgto
+
+How to Run: https://youtu.be/t9NVUyMMtMY
 
 ## Important
 
