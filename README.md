@@ -168,37 +168,6 @@ UPDATE user_profiles SET role = 'admin' WHERE id = '<user-id>';
    - View all customer orders
    - Update order status (pending → paid → shipped → delivered)
    - View order items and customer details
-
-## 🔐 Security Features
-
-- **Row Level Security (RLS)** enabled on all tables
-- **Authentication required** for cart, orders, and admin actions
-- **Role-based access control** for admin features
-- **Secure cookie-based sessions** via Supabase SSR
-- **CORS headers** properly configured
-- 
-## 🐛 Troubleshooting
-
-### Issue: User can't sign in
-- Check Supabase authentication settings
-- Ensure email confirmation is disabled or handled
-- Check browser console for errors
-
-### Issue: Products not showing
-- Verify database connection
-- Check if products exist in Supabase table
-- Look at browser network tab for API errors
-
-### Issue: Cart not working
-- Ensure user is signed in
-- Check cart_items table in Supabase
-- Verify RLS policies are set correctly
-
-### Issue: Checkout fails
-- Currently using placeholder Stripe keys
-- Replace with real keys to enable payments
-- Check Stripe dashboard for session creation
-
 For production deployment to Vercel:
 1. Connect your GitHub repository
 2. Add environment variables
