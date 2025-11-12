@@ -2,7 +2,7 @@
 
 ## Deployment
 
-This entire project was built by an AI agent. If you don’t know how to run, deploy, or make it live, simply use any AI agent, upload the entire source code and ask the AI agent how to run or deploy the project. Then, just follow the instructions; the AI agent will guide you through the process.
+This entire project was built by an AI agent. If you don’t know how to run, deploy, or make it live, simply use any AI agent, upload the entire source code and ask the AI agent how to run or deploy the project. Then, just follow the instructions, the AI agent will guide you through the process.
 
 ## Tutorial
 
